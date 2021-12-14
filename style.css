@@ -1,10 +1,10 @@
 /* ********************Custom properties******************* */
 :root{
-    --first-color: #d90062;
-    --first-alpha-color: rgba(217, 0, 98, 0.75);
-    --second-color: #14192d;
+    --first-color: #00d9bc;
+    --first-alpha-color: rgba(0, 217, 152, 0.75);
+    --second-color: #14252d;
     --second-alpha-color: rgba(20, 25, 45, 0.75);
-    --third-color: #501464;
+    --third-color: #145864;
     --third-alpha-color: rgba(80, 20, 100, 0.75);
     --white-color: #fff;
     --gray-light-color: #f3f3f3;
