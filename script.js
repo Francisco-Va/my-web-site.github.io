@@ -1,3 +1,8 @@
+import darkTheme from "./dark-theme.js";
+import countdown from "./cuenta-regresiva.js";
+
+
+
 /*********************Menu******************* */
 
 ((d) =>{
@@ -20,7 +25,7 @@
 })(document); 
 
 // *******************************Contact form******************
-
+ 
 ((d)=>{
   const $form = d.querySelector(".contact-form"),
   $loader = d.querySelector(".contact-form-loader"),
@@ -52,6 +57,15 @@
       });
   });
 
-})(document); 
+})(document);
+
+// ******************Llamada para la función del tema oscuro**************************
+darkTheme(".dark-theme-btn", "dark-mode"); 
 
 
+// *******************Cuenta regresiva****************************************
+const doc = document;
+
+doc.addEventListener("DOMContentLoaded", e=>{
+  countdown("countdown", "December 25, 2021 00:00:00", "Es navidad, es hoy, es navidad, shiiii, a celebrar ❤😍"); 
+});
