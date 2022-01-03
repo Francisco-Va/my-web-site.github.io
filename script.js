@@ -1,5 +1,6 @@
 import darkTheme from "./dark-theme.js";
 import countdown from "./cuenta-regresiva.js";
+import scrollTopButton from "./scroll.js";
 
 
 
@@ -67,5 +68,9 @@ darkTheme(".dark-theme-btn", "dark-mode");
 const doc = document;
 
 doc.addEventListener("DOMContentLoaded", e=>{
-  countdown("countdown", "December 25, 2021 00:00:00", "Es navidad, es hoy, es navidad, shiiii, a celebrar ❤😍"); 
+  countdown("countdown", "March 25, 2022 00:00:00", "Lo logré, es hoy, hoy encontré mi primer trabajo como desarrollador ❤😍"); 
+
+// ****************************Scroll buttom****************************
+scrollTopButton(".scroll-top-btn"); 
 });
+
