@@ -10,6 +10,4 @@
 //https://Francisco-Va.github.io-maquetacion-css-js/portafolio-cv
 
 
-// 6:15: 09 https://www.youtube.com/watch?v=ErtR07GLq54
-
 
